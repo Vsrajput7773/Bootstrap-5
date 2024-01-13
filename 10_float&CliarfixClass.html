@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float and Cliarfix </title>
+    <!-- link Bootstrap css with cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- 
+        float-start
+        float-end
+
+        parent proprety
+        clearfix 
+
+        break point 
+      float-lg-start
+    -->
+
+    <div class="container border clearfix">
+        <div class="float-lg-end bg-send float-start bg-warning">
+            div 1
+        </div>
+        <div class="float-lg-start     float-end bg-info">
+            div 2
+        </div>
+    </div>
+
+
+    <!-- width and hight  -->
+
+    <!-- 
+            w-25  = 25%       h-25  = 25%       vh-100
+            w-50  = 50%       h-50  = 50%       min-vh-100
+            w-75  = 75%       h-75  = 75%       wh-100
+            w-100 = 100%      h-100 = 100%      min-wh-100 etc
+         -->
+<div class="container ">
+    <div class="row" style="height: 100vh;">
+        <div class="bg-info w-50 h-50vh">
+            div1
+        </div>
+        <div class="bg-warning w-75">
+            div2
+        </div>
+        <div class="bg-info h-25">
+            div1
+        </div>
+        <div class="bg-warning ">
+            div2
+        </div>
+    </div>
+
+</div>
+
+    <!-- link bootstrap js with cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
